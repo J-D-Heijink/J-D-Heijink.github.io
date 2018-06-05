@@ -1,0 +1,11 @@
+{
+    "recognition": {
+        "tolerance": 0.55
+    },
+    "timing": {
+        "loop.delay": 0.1,
+        "camera.throttle": 3,
+        "forget.recognition": 5,
+        "slide.delay": 30
+    }
+}
