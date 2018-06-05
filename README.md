@@ -1,5 +1,7 @@
 # J-D-Heijink.github.io
-Public stuff for easy access
+
+##Public stuff for easy access
+
 Explanation of parameters in config.json:
 =========================================
 1. recognition:
