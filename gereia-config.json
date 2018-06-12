@@ -1,11 +1,19 @@
 {
+    "path": {
+        "people": "people",
+        "pictures": "pictures"
+    },
     "recognition": {
-        "tolerance": 0.55
+        "jitter": 10,
+        "tolerance": 0.5
     },
     "timing": {
         "loop.delay": 0.1,
-        "camera.throttle": 3,
+        "camera.throttle": 1,
         "forget.recognition": 5,
-        "slide.delay": 30
+        "slide.delay": 45
+    },
+    "logging": {
+        "dissimilarity": 0.1
     }
 }
