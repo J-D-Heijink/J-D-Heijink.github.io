@@ -1,7 +1,8 @@
 {
     "path": {
         "people": "people",
-        "pictures": "pictures"
+        "pictures": "pictures",
+        "logging": "log"
     },
     "recognition": {
         "jitter": 10,
