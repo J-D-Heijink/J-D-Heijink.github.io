@@ -16,5 +16,8 @@
     },
     "logging": {
         "dissimilarity": 0.1
+    },
+    "camera": {
+        "flip": true
     }
 }
