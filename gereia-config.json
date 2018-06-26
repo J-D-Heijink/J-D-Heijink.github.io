@@ -10,7 +10,7 @@
     },
     "timing": {
         "loop.delay": 0.1,
-        "camera.throttle": 1,
+        "camera.throttle": 0.250,
         "forget.recognition": 5,
         "slide.delay": 45
     },
