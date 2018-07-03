@@ -6,7 +6,7 @@
     },
     "recognition": {
         "jitter": 10,
-        "tolerance": 0.5
+        "tolerance": 0.55
     },
     "timing": {
         "loop.delay": 0.1,
@@ -15,9 +15,12 @@
         "slide.delay": 45
     },
     "logging": {
-        "dissimilarity": 0.1
+        "dissimilarity": 0.05
     },
     "camera": {
-        "flip": true
+        "flip": true,
+        "height": 1080,
+        "input": 0,
+        "width": 1920
     }
 }
