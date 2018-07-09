@@ -6,13 +6,13 @@
     },
     "recognition": {
         "jitter": 10,
-        "tolerance": 0.55
+        "tolerance": 0.45
     },
     "timing": {
         "loop.delay": 0.1,
         "camera.throttle": 0.250,
         "forget.recognition": 5,
-        "slide.delay": 45
+        "slide.delay": 60
     },
     "logging": {
         "dissimilarity": 0.05
