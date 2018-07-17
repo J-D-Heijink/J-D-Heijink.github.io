@@ -6,7 +6,7 @@
     },
     "recognition": {
         "jitter": 10,
-        "tolerance": 0.45
+        "tolerance": 0.5
     },
     "timing": {
         "loop.delay": 0.1,
