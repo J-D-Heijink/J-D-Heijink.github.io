@@ -18,3 +18,9 @@ Explanation of parameters in config.json:
     * camera.throttle: Delay between consecutive analyses of webcam images (in seconds)
 1. logging
     * dissimilarity: Threshold to log new image, between 0 (identical) and 1 (very different)
+1. camera
+    * height: desired height (pixels) of camera image
+    * width: desired width (pixels) of camera image
+    * flip: True if camera is upside down
+    * input: Camera device (0 for default)
+    
