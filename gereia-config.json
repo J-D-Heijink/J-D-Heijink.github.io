@@ -15,7 +15,7 @@
         "slide.delay": 60
     },
     "logging": {
-        "dissimilarity": 0.05
+        "dissimilarity": 0.03
     },
     "camera": {
         "flip": true,
