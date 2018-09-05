@@ -2,6 +2,7 @@
     "path": {
         "people": "people",
         "pictures": "pictures",
+        "songs": "songs",
         "logging": "log"
     },
     "recognition": {
