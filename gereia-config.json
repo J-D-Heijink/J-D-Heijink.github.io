@@ -5,6 +5,10 @@
         "songs": "songs",
         "logging": "log"
     },
+    "extension": {
+        "picture": ["jpg", "jpeg", "png"],
+        "song": ["mp3"]
+    },
     "recognition": {
         "jitter": 10,
         "tolerance": 0.55
@@ -23,5 +27,9 @@
         "height": 1080,
         "input": 0,
         "width": 1920
+    },
+    "web": {
+        "host": "0.0.0.0",
+        "port": "8080"
     }
 }
