@@ -6,8 +6,13 @@ Explanation of parameters in config.json:
 =========================================
 1. path
     * people: Directory where images of known people are stored (subdirectory name is name of person)
-    * pictures: Directory where slide show pictures are stored
+    * pictures: Directory where categorized pictures are stored (subdirectory name is category name)
+    * songs: Directory where categorized songs are stored (subdirectory name is category name)
     * logging: Directory where log files are stored
+    * cache: Directory where results are cached, e.g. face encodings
+1. extension
+    * picture: Array with file extensions of pictures
+    * song: Array with file extensions of songs
 1. recognition:
     * jitter: Control number of times to re-sample when building network for a single face
     * tolerance: Tolerance number for face recognition between 0 and 1 (default is 0.6, lower value for more strictness)
@@ -19,8 +24,11 @@ Explanation of parameters in config.json:
 1. logging
     * dissimilarity: Threshold to log new image, between 0 (identical) and 1 (very different)
 1. camera
-    * height: desired height (pixels) of camera image
-    * width: desired width (pixels) of camera image
-    * flip: True if camera is upside down
-    * input: Camera device (0 for default)
-    
+    * flip: Flip image if camera is upside down
+    * height: Desired resolution height of camera image
+    * input: Input device (use zero for default camera)
+    * width: Desired resolution width of camera image
+1. web
+    * host: Listening host, e.g. "0.0.0.0" to accept from all hosts or "127.0.0.1" for localhost only
+    * port: Listening port
+    * upload.limit: Limit the size of uploaded files (in kilobytes)
